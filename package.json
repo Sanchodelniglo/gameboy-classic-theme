@@ -1,0 +1,21 @@
+{
+  "name": "gameboy-classic-theme",
+  "displayName": "GameBoy Classic Theme",
+  "description": "GameBoy Classic colors inspired theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GameBoy Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GameBoy Classic-color-theme.json"
+      }
+    ]
+  }
+}

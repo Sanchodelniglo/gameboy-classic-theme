@@ -1,0 +1,85 @@
+{
+  "name": "GameBoy Classic",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#9BBC0F", // Screen color
+    "editor.foreground": "#4f5f08", // D-Pad color
+    "editorCursor.foreground": "#272929",
+    "editor.lineHighlightBackground": "#a5c60f", // Console casing color
+    "editor.selectionBackground": "#c0e713",
+    "editor.inactiveSelectionBackground": "#c0e713e9",
+    "editor.selectionHighlightBackground": "#c0e713e9",
+    "editor.findMatchBackground": "#c0e713e9",
+    "editor.findMatchHighlightBackground": "#c0e713e9",
+    "editor.hoverHighlightBackground": "#c0e713e9",
+    "editorIndentGuide.background1": "#c4bebb",
+    "editorIndentGuide.activeBackground1": "#272929",
+
+    "sideBar.background": "#c4bebb", // Console casing color
+    "sideBar.foreground": "#272929",
+		"sideBar.border": "#494786",
+		"sied"
+    "activityBar.background": "#c4bebb",
+    "activityBar.foreground": "#494786",
+		"activityBarBadge.background": "#9a2257",
+		"activityBarBadge.foreground": "#f8f8f2",
+    "statusBar.background": "#c4bebb",
+    "statusBar.foreground": "#272929",
+    "titleBar.activeBackground": "#c4bebb",
+    "titleBar.activeForeground": "#272929",
+    "titleBar.inactiveBackground": "#c4bebb",
+    "titleBar.inactiveForeground": "#272929",
+    "panel.background": "#c4bebb",
+    "panel.border": "#494786",
+		"panelTitle.activeForeground": "#9a2257",
+		"panelTitle.inactiveForeground": "#494786",
+
+    "button.background": "#9a2257", // A and B button color
+    "button.foreground": "#f8f8f2",
+    "button.hoverBackground": "#7e1c49",
+    "button.secondaryBackground": "#494786", // 'Nintendo Gameboy' text color
+    "button.secondaryForeground": "#f8f8f2",
+    "button.secondaryHoverBackground": "#3f3e6e",
+
+    "badge.background": "#9a2257", // A and B button color
+    "badge.foreground": "#f8f8f2",
+
+    "titleBar.border": "#494786",
+
+    "statusBar.border": "#494786",
+    "statusBar.debuggingBackground": "#9a2257",
+    "statusBar.debuggingForeground": "#f8f8f2"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#79970b" // 'Nintendo Gameboy' text color
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#306230" // D-Pad color
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#234823" // A and B button color
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#0F380F" // D-Pad color
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#494786" // 'Nintendo Gameboy' text color
+      }
+    }
+  ]
+}
