@@ -1,84 +1,197 @@
 {
   "name": "GameBoy Classic",
   "type": "dark",
+  "fontFamily": "Monaco",
+  "fontSize": 12,
   "colors": {
-    "editor.background": "#9BBC0F", // Screen color
-    "editor.foreground": "#4f5f08", // D-Pad color
-    "editorCursor.foreground": "#272929",
-    "editor.lineHighlightBackground": "#a5c60f", // Console casing color
-    "editor.selectionBackground": "#c0e713",
-    "editor.inactiveSelectionBackground": "#c0e713e9",
-    "editor.selectionHighlightBackground": "#c0e713e9",
-    "editor.findMatchBackground": "#c0e713e9",
-    "editor.findMatchHighlightBackground": "#c0e713e9",
-    "editor.hoverHighlightBackground": "#c0e713e9",
-    "editorIndentGuide.background1": "#c4bebb",
-    "editorIndentGuide.activeBackground1": "#272929",
-
-    "sideBar.background": "#c4bebb", // Console casing color
-    "sideBar.foreground": "#272929",
-		"sideBar.border": "#494786",
-		"sied"
+    "disabledForeground": "#4947864a",
+    "icon.foreground": "#494786",
+    "activityBar.activeBorder": "#494786",
     "activityBar.background": "#c4bebb",
+    "activityBar.dropBorder": "#494786",
     "activityBar.foreground": "#494786",
-		"activityBarBadge.background": "#9a2257",
-		"activityBarBadge.foreground": "#f8f8f2",
-    "statusBar.background": "#c4bebb",
-    "statusBar.foreground": "#272929",
-    "titleBar.activeBackground": "#c4bebb",
-    "titleBar.activeForeground": "#272929",
-    "titleBar.inactiveBackground": "#c4bebb",
-    "titleBar.inactiveForeground": "#272929",
-    "panel.background": "#c4bebb",
-    "panel.border": "#494786",
-		"panelTitle.activeForeground": "#9a2257",
-		"panelTitle.inactiveForeground": "#494786",
-
-    "button.background": "#9a2257", // A and B button color
+    "activityBar.inactiveForeground": "#49478666",
+    "activityBarBadge.background": "#9a2257",
+    "activityBarBadge.foreground": "#f8f8f2",
+    "activityBarTop.activeBorder": "#494786",
+    "activityBarTop.dropBorder": "#494786",
+    "activityBarTop.foreground": "#494786",
+    "activityBarTop.inactiveForeground": "#49478699",
+    "activityErrorBadge.background": "#9a2257",
+    "activityErrorBadge.foreground": "#f8f8f2",
+    "activityWarningBadge.background": "#cadca0",
+    "activityWarningBadge.foreground": "#272929",
+    "badge.background": "#9a2257",
+    "badge.foreground": "#f8f8f2",
+    "banner.background": "#04395e",
+    "banner.foreground": "#ffffff",
+    "banner.iconForeground": "#3794ff",
+    "breadcrumb.activeSelectionForeground": "#e0e0e0",
+    "breadcrumb.background": "#c4bebb",
+    "breadcrumb.focusForeground": "#9a2257",
+    "breadcrumb.foreground": "#494786",
+    "breadcrumbPicker.background": "#c4bebb",
+    "button.background": "#9a2257",
     "button.foreground": "#f8f8f2",
     "button.hoverBackground": "#7e1c49",
-    "button.secondaryBackground": "#494786", // 'Nintendo Gameboy' text color
+    "button.secondaryBackground": "#494786",
     "button.secondaryForeground": "#f8f8f2",
     "button.secondaryHoverBackground": "#3f3e6e",
-
-    "badge.background": "#9a2257", // A and B button color
-    "badge.foreground": "#f8f8f2",
-
-    "titleBar.border": "#494786",
-
+    "button.separator": "#f8f8f266",
+    "chart.axis": "#4f5f0880",
+    "chart.guide": "#4f5f0840",
+    "chart.line": "#234823",
+    "charts.blue": "#494786",
+    "charts.foreground": "#4f5f08",
+    "charts.green": "#79970b",
+    "charts.lines": "#4f5f0880",
+    "charts.orange": "#cadca0",
+    "charts.purple": "#9a2257",
+    "charts.red": "#9a2257",
+    "charts.yellow": "#cadca0",
+    "chat.avatarBackground": "#272929",
+    "chat.avatarForeground": "#4f5f08",
+    "chat.editedFileForeground": "#79970b",
+    "chat.requestBackground": "#9bbc0f99",
+    "chat.requestBorder": "#ffffff1a",
+    "chat.slashCommandBackground": "#49478699",
+    "chat.slashCommandForeground": "#40a6ff",
+    "dropdown.background": "#c4bebb",
+    "dropdown.border": "#494786",
+    "dropdown.foreground": "#272929",
+    "editor.background": "#cadca0",
+    "editor.findMatchBackground": "#cadca0e9",
+    "editor.findMatchHighlightBackground": "#cadca0e9",
+    "editor.foreground": "#4f5f08",
+    "editor.hoverHighlightBackground": "#cadca0e9",
+    "editor.inactiveSelectionBackground": "#cadca0e9",
+    "editor.lineHighlightBorder": "#8AAC0F",
+    "editor.selectionBackground": "#dbeead",
+    "editor.selectionHighlightBackground": "#dbeeaee9",
+    "editorCursor.foreground": "#234823",
+    "editorCursor.background": "#b3d80e",
+    "editorIndentGuide.activeBackground1": "#8AAC0F",
+    "editorIndentGuide.background1": "#b3d80e",
+    "editorLineNumber.activeForeground": "#8AAC0F",
+    "editorLineNumber.foreground": "#234823",
+    "editorWidget.background": "#c4bebb",
+    "editorWidget.border": "#494786",
+    "editorWidget.foreground": "#494786",
+    "focusBorder": "#9a2257",
+    "list.highlightForeground": "#9a2257",
+    "list.focusHighlightForeground": "#b3d80e",
+    "foreground": "#494786",
+    "editorRuler.foreground":"#8AAC0F",
+    "editor.wordHighlightBackground": "#dbeeaee9",
+    "searchEditor.findMatchBackground": "#dbeeaee9",
+    "input.background": "#c4bebb",
+    "input.border": "#494786",
+    "input.foreground": "#494786",
+    "input.placeholderForeground": "#75706d",
+    "inputOption.activeBackground": "#5855a0",
+    "inputOption.activeBorder": "#5855a0",
+    "inputOption.activeForeground": "#c4bebb",
+    "inputOption.hoverBackground": "#cadca0",
+    "inputValidation.errorBackground": "#9a2257",
+    "inputValidation.errorBorder": "#9a2257",
+    "inputValidation.infoBackground": "#9a2257",
+    "inputValidation.infoBorder": "#9a2257",
+    "inputValidation.warningBackground": "#9a2257",
+    "inputValidation.warningBorder": "#9a2257",
+    "keybindingLabel.background": "#c4bebb",
+    "keybindingLabel.border": "#5855a0",
+    "keybindingLabel.bottomBorder": "#a09b99",
+    "keybindingLabel.foreground": "#494786",
+    "list.activeSelectionBackground": "#494786",
+    "list.activeSelectionForeground": "#c4bebb",
+    "list.activeSelectionIconForeground": "#494786",
+    "list.hoverBackground": "#dcd5d1",
+    "list.inactiveSelectionBackground": "#494786",
+    "list.inactiveSelectionForeground": "#c4bebb",
+    "list.focusBackground": "#494786",
+    "notifications.background": "#494786",
+    "notifications.foreground": "#c4bebb",
+    "notifications.border": "#c4bebb",
+    "panel.background": "#c4bebb",
+    "panel.border": "#494786",
+    "panelTitle.activeForeground": "#9a2257",
+    "panelTitle.inactiveForeground": "#494786",
+    "quickInput.background": "#c4bebb",
+    "editor.findMatchHighlightForeground": "#ecffbeed",
+    "sideBar.background": "#c4bebb",
+    "sideBar.border": "#494786",
+    "sideBar.foreground": "#494786",
+    "statusBar.background": "#c4bebb",
     "statusBar.border": "#494786",
     "statusBar.debuggingBackground": "#9a2257",
-    "statusBar.debuggingForeground": "#f8f8f2"
+    "statusBar.debuggingForeground": "#f8f8f2",
+    "statusBar.noFolderBackground": "#c4bebb",
+    "statusBar.noFolderForeground": "#494786",
+    "statusBar.foreground": "#272929",
+    "tab.inactiveBackground": "#c4bebb",
+    "tab.inactiveForeground": "#494786",
+    "tab.activeBackground": "#494786",
+    "tab.activeForeground": "#c4bebb",
+    "tab.border": "#c4bebb",
+    "editorGroupHeader.tabsBackground": "#c4bebb",
+    "textLink.foreground": "#9a2257",
+    "textLink.activeForeground": "#7d1b46",
+    "titleBar.activeBackground": "#c4bebb",
+    "titleBar.activeForeground": "#494786",
+    "titleBar.border": "#494786",
+    "titleBar.inactiveBackground": "#c4bebb",
+    "titleBar.inactiveForeground": "#494786",
+    "settings.checkboxForeground": "#494786",
   },
   "tokenColors": [
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#79970b" // 'Nintendo Gameboy' text color
+        "foreground": "#8ba747"
       }
     },
     {
-      "scope": "keyword",
+      "scope": [
+        "punctuation.separator.inheritance.ruby",
+        "punctuation.separator.method.ruby",
+        "punctuation.separator.namespace.ruby",
+        "punctuation.definition.constant.ruby",
+        "punctuation.separator.key-value",
+        "punctuation.definition.variable.ruby",
+        "entity.name.function.ruby",
+        "string.quoted.double.interpolated.ruby",
+        "keyword.control.pseudo-method.ruby"
+
+      ],
       "settings": {
-        "foreground": "#306230" // D-Pad color
+        "foreground": "#8AAC0F",
+        "fontStyle": "bold"
       }
     },
     {
       "scope": "string",
       "settings": {
-        "foreground": "#234823" // A and B button color
+        "foreground": "#234823"
       }
     },
     {
-      "scope": "variable",
+      "scope": [
+        "keyword.control.def.ruby",
+        "variable",
+        "support.class.ruby",
+        "entity.name.type.class.ruby",
+        "entity.name.type.module.ruby",
+        "punctuation.section.function.ruby"
+      ],
       "settings": {
-        "foreground": "#0F380F" // D-Pad color
+        "foreground": "#072606",
+        "fontStyle": "bold"
       }
     },
     {
       "scope": "function",
       "settings": {
-        "foreground": "#494786" // 'Nintendo Gameboy' text color
+        "foreground": "#494786"
       }
     }
   ]
