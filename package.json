@@ -1,7 +1,9 @@
 {
-  "name": "gameboy-classic-themes",
-  "displayName": "GameBoy Classic Themes",
-  "description": "GameBoy Classic colors inspired themes",
+  "name": "gameboy-classic-theme",
+  "displayName": "GameBoy Classic Theme",
+  "publisher": "sanchodelniglo",
+  "author": "Romain Grossard",
+  "description": "GameBoy Classic colors inspired theme for VSCode",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.98.0"
@@ -9,11 +11,29 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sanchodelniglo/gameboy-classic-theme"
+  },
+  "icon": "icon.jpg",
+  "keywords": [
+    "retro",
+    "gaming",
+    "theme",
+    "retrogaming",
+    "gameboy",
+    "classic",
+    "gb",
+    "nintendo",
+    "gameboy classic",
+    "light",
+    "dark"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "GameBoy Classic - Light",
-        "uiTheme": "hc-light",
+        "uiTheme": "vs",
         "path": "./themes/gameboy-classic-light-color-theme.json"
       },
       {
