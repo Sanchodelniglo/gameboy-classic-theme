@@ -1,7 +1,7 @@
 {
-  "name": "gameboy-classic-theme",
-  "displayName": "GameBoy Classic Theme",
-  "description": "GameBoy Classic colors inspired theme",
+  "name": "gameboy-classic-themes",
+  "displayName": "GameBoy Classic Themes",
+  "description": "GameBoy Classic colors inspired themes",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.98.0"
@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "GameBoy Classic",
+        "label": "GameBoy Classic - Light",
+        "uiTheme": "hc-light",
+        "path": "./themes/gameboy-classic-light-color-theme.json"
+      },
+      {
+        "label": "GameBoy Classic - Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/GameBoy Classic-color-theme.json"
+        "path": "./themes/gameboy-classic-dark-color-theme.json"
       }
     ]
   }

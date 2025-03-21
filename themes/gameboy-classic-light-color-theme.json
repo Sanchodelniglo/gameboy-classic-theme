@@ -1,11 +1,7 @@
 {
   "name": "GameBoy Classic",
-  "type": "dark",
-  "fontFamily": "Monaco",
-  "fontSize": 12,
+  "type": "light",
   "colors": {
-    "disabledForeground": "#4947864a",
-    "icon.foreground": "#494786",
     "activityBar.activeBorder": "#494786",
     "activityBar.background": "#c4bebb",
     "activityBar.dropBorder": "#494786",
@@ -56,34 +52,39 @@
     "chat.requestBorder": "#ffffff1a",
     "chat.slashCommandBackground": "#49478699",
     "chat.slashCommandForeground": "#40a6ff",
+    "disabledForeground": "#4947864a",
     "dropdown.background": "#c4bebb",
     "dropdown.border": "#494786",
     "dropdown.foreground": "#272929",
-    "editor.background": "#cadca0",
+    "editor.background": "#c0d297",
     "editor.findMatchBackground": "#cadca0e9",
     "editor.findMatchHighlightBackground": "#cadca0e9",
+    "editor.findMatchHighlightForeground": "#ecffbeed",
     "editor.foreground": "#4f5f08",
     "editor.hoverHighlightBackground": "#cadca0e9",
     "editor.inactiveSelectionBackground": "#cadca0e9",
     "editor.lineHighlightBorder": "#8AAC0F",
     "editor.selectionBackground": "#dbeead",
+    "editor.selectionForeground": "#8AAC0F",
     "editor.selectionHighlightBackground": "#dbeeaee9",
-    "editorCursor.foreground": "#234823",
+    "editor.wordHighlightBackground": "#dbeeaee9",
+    "editorBracketHighlight.foreground1": "#f1ffd2",
+    "editorBracketHighlight.foreground2": "#839e08",
+		"editorBracketHighlight.foreground3": "#234823",
     "editorCursor.background": "#b3d80e",
+    "editorCursor.foreground": "#234823",
+    "editorGroupHeader.tabsBackground": "#c4bebb",
     "editorIndentGuide.activeBackground1": "#8AAC0F",
     "editorIndentGuide.background1": "#b3d80e",
     "editorLineNumber.activeForeground": "#8AAC0F",
     "editorLineNumber.foreground": "#234823",
+    "editorRuler.foreground":"#8AAC0F",
     "editorWidget.background": "#c4bebb",
     "editorWidget.border": "#494786",
     "editorWidget.foreground": "#494786",
     "focusBorder": "#9a2257",
-    "list.highlightForeground": "#9a2257",
-    "list.focusHighlightForeground": "#b3d80e",
     "foreground": "#494786",
-    "editorRuler.foreground":"#8AAC0F",
-    "editor.wordHighlightBackground": "#dbeeaee9",
-    "searchEditor.findMatchBackground": "#dbeeaee9",
+    "icon.foreground": "#494786",
     "input.background": "#c4bebb",
     "input.border": "#494786",
     "input.foreground": "#494786",
@@ -105,19 +106,22 @@
     "list.activeSelectionBackground": "#494786",
     "list.activeSelectionForeground": "#c4bebb",
     "list.activeSelectionIconForeground": "#494786",
+    "list.focusBackground": "#494786",
+    "list.focusHighlightForeground": "#b3d80e",
+    "list.highlightForeground": "#9a2257",
     "list.hoverBackground": "#dcd5d1",
     "list.inactiveSelectionBackground": "#494786",
     "list.inactiveSelectionForeground": "#c4bebb",
-    "list.focusBackground": "#494786",
     "notifications.background": "#494786",
-    "notifications.foreground": "#c4bebb",
     "notifications.border": "#c4bebb",
+    "notifications.foreground": "#c4bebb",
     "panel.background": "#c4bebb",
     "panel.border": "#494786",
     "panelTitle.activeForeground": "#9a2257",
     "panelTitle.inactiveForeground": "#494786",
     "quickInput.background": "#c4bebb",
-    "editor.findMatchHighlightForeground": "#ecffbeed",
+    "searchEditor.findMatchBackground": "#dbeeaee9",
+    "settings.checkboxForeground": "#494786",
     "sideBar.background": "#c4bebb",
     "sideBar.border": "#494786",
     "sideBar.foreground": "#494786",
@@ -125,29 +129,27 @@
     "statusBar.border": "#494786",
     "statusBar.debuggingBackground": "#9a2257",
     "statusBar.debuggingForeground": "#f8f8f2",
+    "statusBar.foreground": "#272929",
     "statusBar.noFolderBackground": "#c4bebb",
     "statusBar.noFolderForeground": "#494786",
-    "statusBar.foreground": "#272929",
-    "tab.inactiveBackground": "#c4bebb",
-    "tab.inactiveForeground": "#494786",
     "tab.activeBackground": "#494786",
     "tab.activeForeground": "#c4bebb",
     "tab.border": "#c4bebb",
-    "editorGroupHeader.tabsBackground": "#c4bebb",
-    "textLink.foreground": "#9a2257",
+    "tab.inactiveBackground": "#c4bebb",
+    "tab.inactiveForeground": "#494786",
     "textLink.activeForeground": "#7d1b46",
+    "textLink.foreground": "#9a2257",
     "titleBar.activeBackground": "#c4bebb",
     "titleBar.activeForeground": "#494786",
     "titleBar.border": "#494786",
     "titleBar.inactiveBackground": "#c4bebb",
     "titleBar.inactiveForeground": "#494786",
-    "settings.checkboxForeground": "#494786",
   },
   "tokenColors": [
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#8ba747"
+        "foreground": "#7A9D54"
       }
     },
     {
@@ -156,43 +158,53 @@
         "punctuation.separator.method.ruby",
         "punctuation.separator.namespace.ruby",
         "punctuation.definition.constant.ruby",
+        "punctuation.definition.constant.hashkey.ruby",
         "punctuation.separator.key-value",
         "punctuation.definition.variable.ruby",
-        "entity.name.function.ruby",
-        "string.quoted.double.interpolated.ruby",
-        "keyword.control.pseudo-method.ruby"
-
+        "keyword.control.pseudo-method.ruby",
+        "variable.parameter.function.ruby",
       ],
       "settings": {
-        "foreground": "#8AAC0F",
+        "foreground": "#f1ffd3",
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "string.quoted.double.interpolated.ruby",
+      ],
+      "settings": {
+        "foreground": "#31572C",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": "string",
+      "scope": [
+        "keyword.control.module.ruby",
+        "keyword.control.class.ruby",
+        "entity.other.inherited-class.ruby",
+        "keyword.other.special-method.ruby",
+        "entity.name.function.ruby",
+      ],
       "settings": {
-        "foreground": "#234823"
+        "foreground": "#31572C",
+        "fontStyle": "underline"
       }
     },
     {
       "scope": [
         "keyword.control.def.ruby",
+        "keyword.control.ruby",
         "variable",
         "support.class.ruby",
         "entity.name.type.class.ruby",
         "entity.name.type.module.ruby",
-        "punctuation.section.function.ruby"
+        "punctuation.section.function.ruby",
       ],
       "settings": {
-        "foreground": "#072606",
+        "foreground": "#1F3B2D",
         "fontStyle": "bold"
       }
     },
-    {
-      "scope": "function",
-      "settings": {
-        "foreground": "#494786"
-      }
-    }
   ]
 }
