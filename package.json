@@ -4,7 +4,8 @@
   "publisher": "sanchodelniglo",
   "author": "Romain Grossard",
   "description": "GameBoy Classic colors inspired theme for VSCode",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -15,7 +16,15 @@
     "type": "git",
     "url": "https://github.com/Sanchodelniglo/gameboy-classic-theme"
   },
+  "homepage": "https://github.com/Sanchodelniglo/gameboy-classic-theme",
+  "bugs": {
+    "url": "https://github.com/Sanchodelniglo/gameboy-classic-theme/issues"
+  },
   "icon": "icon.jpg",
+  "galleryBanner": {
+    "color": "#9bbc0f",
+    "theme": "light"
+  },
   "keywords": [
     "retro",
     "gaming",
