@@ -3,6 +3,7 @@
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/sanchodelniglo.gameboy-classic-theme?style=flat-square&label=VS%20Code%20Marketplace&color=9bbc0f)](https://marketplace.visualstudio.com/items?itemName=sanchodelniglo.gameboy-classic-theme)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/sanchodelniglo.gameboy-classic-theme?style=flat-square&color=306850)](https://marketplace.visualstudio.com/items?itemName=sanchodelniglo.gameboy-classic-theme)
 [![License: MIT](https://img.shields.io/badge/License-MIT-0f380f.svg?style=flat-square)](LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-ff5e5b?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/sanchodelniglo)
 
 A nostalgic VS Code theme inspired by the original Nintendo GameBoy's iconic green-tinted LCD screen. Relive the golden era of handheld gaming while you code.
 
@@ -87,6 +88,12 @@ Found a bug or have a suggestion? Feel free to:
 - Submit a [pull request](https://github.com/Sanchodelniglo/gameboy-classic-theme/pulls)
 
 All contributions are welcome!
+
+## Support
+
+If you enjoy this theme, consider buying me a coffee!
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20Me-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/sanchodelniglo)
 
 ## License
 
